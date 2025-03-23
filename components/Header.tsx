@@ -22,8 +22,8 @@ const Header = () => {
   ]
 
   return (
-    <header className="bg-card font-montserrat sticky top-0 z-50 flex h-[72px] w-full items-center px-4">
-      <div className="mx-auto w-full max-w-7xl">
+    <header className="bg-card font-montserrat sticky top-0 z-50 flex h-[72px] w-full items-center">
+      <div className="container mx-auto px-5">
         <nav className="flex h-full items-center justify-between">
           <div className="flex items-center gap-4">
             <Link href="/">
@@ -55,7 +55,7 @@ const Header = () => {
             <Sheet>
               <SheetTrigger asChild>
                 <Button variant="ghost" size="icon">
-                  <Menu className="h-6 w-6" />
+                  <Menu className="h-9 w-9" />
                   <span className="sr-only">Toggle menu</span>
                 </Button>
               </SheetTrigger>

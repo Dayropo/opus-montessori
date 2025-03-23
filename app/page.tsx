@@ -1,3 +1,4 @@
+import FAQSection from "@/components/FAQSection"
 import GuidingPrinciplesSection from "@/components/GuidingPrinciplesSection"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
@@ -9,7 +10,7 @@ export default function Home() {
       <section className="relative h-[calc(100dvh_-_72px)] bg-[url(/images/hero.jpg)] bg-cover bg-center bg-no-repeat">
         <div className="absolute inset-0 bg-green-900 opacity-30"></div>
 
-        <div className="relative mx-auto flex h-full w-full max-w-7xl flex-col justify-center px-4">
+        <div className="relative container mx-auto flex h-full flex-col justify-center px-5">
           <h1 className="mb-4 w-full max-w-xl text-2xl font-bold text-white md:text-5xl">
             Educating for Today, Tomorrow and Beyond
           </h1>
@@ -34,6 +35,8 @@ export default function Home() {
       </section>
 
       <GuidingPrinciplesSection />
+
+      <FAQSection />
     </main>
   )
 }

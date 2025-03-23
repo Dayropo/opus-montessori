@@ -3,8 +3,8 @@ import PrincipleCard from "./PrincipleCard"
 
 const GuidingPrinciplesSection: React.FC = () => {
   return (
-    <section className="bg-gray-50 py-16">
-      <div className="container mx-auto px-4">
+    <section className="bg-gray-50 py-8 md:py-16">
+      <div className="container mx-auto px-5">
         <div className="mb-12 text-center">
           <h2 className="mb-4 text-xl font-bold md:text-3xl">Our Guiding Principles</h2>
           <p className="mx-auto max-w-2xl text-sm text-gray-600 md:text-base">
