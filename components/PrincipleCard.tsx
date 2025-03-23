@@ -6,11 +6,11 @@ import {
   Card,
   CardContent,
   CardDescription,
-  CardFooter,
+ // CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
+// import { Button } from "@/components/ui/button"
 import * as LucideIcons from "lucide-react"
 import { cn } from "@/lib/utils"
 import { LucideIcon } from "lucide-react"
@@ -21,7 +21,7 @@ interface PrincipleCardProps {
 }
 
 const PrincipleCard: React.FC<PrincipleCardProps> = ({ principle }) => {
-  const [expanded, setExpanded] = useState(true)
+  const [expanded] = useState(true)
 
   // Get the icon dynamically with proper typing
   const getDynamicIcon = (): LucideIcon => {
